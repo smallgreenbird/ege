@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/保存.png</file>
+        <file>png/保存全部.png</file>
+        <file>png/新建.png</file>
+        <file>png/新建工程.png</file>
+        <file>png/停止.png</file>
+        <file>png/钥匙.png</file>
+        <file>png/运行中.png</file>
+        <file>png/编辑属性.png</file>
+        <file>png/工程.png</file>
+        <file>png/信息.png</file>
+        <file>png/搜索.png</file>
+        <file>png/角色.png</file>
+        <file>png/密码.png</file>
+        <file>png/用户ID.png</file>
+        <file>png/用户姓名.png</file>
+        <file>png/用户组.png</file>
+        <file>draw/pen.png</file>
+        <file>draw/放大镜.png</file>
+        <file>draw/矩形.png</file>
+        <file>draw/清空.png</file>
+        <file>draw/刷子.png</file>
+        <file>draw/五边形.png</file>
+        <file>draw/移动.png</file>
+        <file>draw/圆角矩形.png</file>
+        <file>draw/圆形.png</file>
+        <file>draw/直线.png</file>
+        <file>draw/撤销.png</file>
+        <file>draw/复制.png</file>
+        <file>draw/剪切.png</file>
+        <file>draw/删除.png</file>
+        <file>draw/粘贴.png</file>
+        <file>draw/重做.png</file>
+    </qresource>
+</RCC>
