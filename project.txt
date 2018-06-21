@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="演示工程" type="0">
+	<child name="系统设置" type="0">
+		<child name="机器节点" type="7"></child>
+		<child name="短信与邮箱" type="0"></child>
+	</child>
+	<child name="数据库管理" type="0">
+		<child name="系统表" type="0">
+			<child name="表名表" type="1"></child>
+			<child name="域名表" type="1"></child>
+			<child name="颜色配置表" type="1"></child>
+			<child name="当前用户表" type="1"></child>
+			<child name="用户表" type="1"></child>
+			<child name="用户组表" type="1"></child>
+			<child name="机器表" type="1"></child>
+			<child name="菜单表" type="1"></child>
+			<child name="时段表" type="1"></child>
+			<child name="时段间隔表" type="1"></child>
+			<child name="取样设置表" type="1"></child>
+			<child name="电压表" type="1"></child>
+			<child name="告警组表" type="1"></child>
+		</child>
+		<child name="应用类" type="0">
+			<child name="厂站表" type="1"></child>
+			<child name="逻辑表" type="1"></child>
+			<child name="计算值表" type="1"></child>
+			<child name="计算公式表" type="1"></child>
+			<child name="限值表" type="1"></child>
+			<child name="统计值表" type="1"></child>
+		</child>
+		<child name="设备类" type="0">
+			<child name="母联表" type="1"></child>
+			<child name="母线表" type="1"></child>
+			<child name="开关刀闸表" type="1"></child>
+			<child name="发电机组表" type="1"></child>
+			<child name="负荷表" type="1"></child>
+			<child name="线路表" type="1"></child>
+			<child name="电抗|电容表" type="1"></child>
+			<child name="标志牌表" type="1"></child>
+			<child name="变压器表" type="1"></child>
+		</child>
+		<child name="测点类" type="0">
+			<child name="设备节点表" type="1"></child>
+			<child name="子CPU表" type="1"></child>
+			<child name="告警事件序列号表" type="1"></child>
+			<child name="模拟量序号表" type="1"></child>
+			<child name="保护事件序号表" type="1"></child>
+			<child name="遥信序号表" type="1"></child>
+			<child name="遥测序号表" type="1"></child>
+			<child name="遥脉序号表" type="1"></child>
+			<child name="定值序号表" type="1"></child>
+			<child name="软压板序号表" type="1"></child>
+			<child name="分接头序号表" type="1"></child>
+			<child name="遥控关系表" type="1"></child>
+			<child name="故障录波表" type="1"></child>
+			<child name="故障录波要信表" type="1"></child>
+		</child>
+		<child name="历史数据" type="0"></child>
+	</child>
+	<child name="图元管理" type="0">
+		<child name="开关" type="0">
+			<child name="储能状态指示灯" type="2"></child>
+			<child name="开关横向" type="2"></child>
+			<child name="开关竖向" type="2"></child>
+			<child name="开关遥控横向" type="2"></child>
+			<child name="开关遥控竖向" type="2"></child>
+			<child name="手车横向" type="2"></child>
+			<child name="手车竖向" type="2"></child>
+			<child name="手车竖向长" type="2"></child>
+			<child name="状态指示灯" type="2"></child>
+		</child>
+		<child name="刀闸" type="0"></child>
+		<child name="两卷变" type="0"></child>
+		<child name="三卷变" type="0"></child>
+		<child name="发电机" type="0"></child>
+		<child name="潮流方向" type="0"></child>
+		<child name="容抗" type="0"></child>
+		<child name="电表" type="0"></child>
+		<child name="终端" type="0"></child>
+		<child name="检修标志牌" type="0"></child>
+		<child name="接地标志牌" type="0"></child>
+		<child name="注释标志牌" type="0"></child>
+		<child name="开关热备用标志牌" type="0"></child>
+		<child name="开关冷备用标志牌" type="0"></child>
+		<child name="并车标志牌" type="0"></child>
+		<child name="危险标志牌" type="0"></child>
+		<child name="故障标志牌" type="0"></child>
+		<child name="工况" type="0"></child>
+		<child name="其他" type="0"></child>
+	</child>
+	<child name="图形管理" type="0">
+		<child name="系统图" type="0">
+			<child name="主界面" type="3"></child>
+			<child name="总览图" type="3"></child>
+		</child>
+		<child name="接线图" type="0"></child>
+		<child name="地理图" type="0"></child>
+		<child name="曲线图" type="0"></child>
+		<child name="棒图" type="0"></child>
+		<child name="饼图" type="0"></child>
+		<child name="其他" type="0"></child>
+	</child>
+	<child name="装置管理" type="0">
+		<child name="装置配置" type="4"></child>
+	</child>
+	<child name="计算与逻辑" type="0">
+		<child name="定义"  type="0"></child>
+		<child name="模板"  type="0"></child>
+	</child>
+	<child name="报表管理" type="0">
+		<child name="报表模板"  type="0">
+			<child name="功率日报表"  type="5"></child>
+			<child name="功率月报表"  type="5"></child>
+			<child name="电压日报表"  type="5"></child>
+			<child name="电压月报表"  type="5"></child>
+			<child name="电流日报表"  type="5"></child>
+			<child name="电流月报表"  type="5"></child>
+			
+		</child>
+		<child name="临时报表"  type="0"></child>
+	</child>
+	<child name="告警管理" type="0">
+		<child name="声音配置" type="6"></child>
+		<child name="手机配置" type="6"></child>
+		<child name="历史告警" type="6"></child>
+	</child>
+</project>
