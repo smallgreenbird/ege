@@ -1,4 +1,4 @@
-#include "myprodockwidget.h"
+﻿#include "myprodockwidget.h"
 #include "myprotreeitem.h"
 #include <QDomDocument>
 #include <QFile>
@@ -67,6 +67,17 @@ bool MyProDockWidget::creatTree(QTreeWidget *tree)
                         {
                             MyProTreeItem *item2 = new MyProTreeItem(item1,QStringList(e2.attribute("name")),e2.attribute("type"));
                             item1->addChild(item2);
+                            QDomNode n3 = e2.firstChild();
+                            while (!n3.isNull())
+                            {
+                                QDomElement e3 = n3.toElement();
+                                if (!e3.isNull())
+                                {
+                                    MyProTreeItem *item3 = new MyProTreeItem(item2,QStringList(e3.attribute("name")),e3.attribute("type"));
+                                    item2->addChild(item3);
+                                }
+                                n3 = n3.nextSibling();
+                            }
                         }
                         n2 = n2.nextSibling();
                     }

@@ -4,6 +4,13 @@
 		<child name="机器节点" type="7"></child>
 		<child name="短信与邮箱" type="0"></child>
 	</child>
+	<child name="系统模型" type="0">
+		<child name="某线路" type="0">
+			<child name="某站" type="0">
+					<child name="某装置" type="0"></child>
+			</child>
+		</child>
+	</child>
 	<child name="数据库管理" type="0">
 		<child name="系统表" type="0">
 			<child name="表名表" type="1"></child>
